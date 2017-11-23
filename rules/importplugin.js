@@ -22,6 +22,7 @@ module.exports = {
     ],
     'import/no-amd': 2,
     'import/no-mutable-exports': 2,
+    'import/no-duplicates': 2,
   },
   settings: {
     'import/resolver': {
