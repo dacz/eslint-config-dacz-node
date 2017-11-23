@@ -15,16 +15,20 @@
   },
   "readme": "README.md",
   "directories": {},
-  "keywords": ["eslint", "prettier", "codestyle", "node", "flow"],
+  "keywords": [
+    "eslint",
+    "prettier",
+    "codestyle",
+    "node",
+    "flow"
+  ],
   "scripts": {
     "cm": "git-cz",
     "cm:retry": "git-cz --retry",
     "lint": "eslint .",
     "test": "npm run --silent lint",
-    "eslint-check":
-      "eslint --print-config index.js | eslint-config-prettier-check",
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post"
+    "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "babel-eslint": "8.0.2",
