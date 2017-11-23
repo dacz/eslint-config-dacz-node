@@ -20,4 +20,5 @@ module.exports = {
 };
 ```
 
+Have a nice day.
 
