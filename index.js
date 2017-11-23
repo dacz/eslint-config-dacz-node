@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['ava', 'compat', 'import', 'security', 'flowtype'],
+  plugins: ['ava', 'import', 'security', 'flowtype'],
   extends: [
     './rules/best-practices.js',
     './rules/errors.js',
