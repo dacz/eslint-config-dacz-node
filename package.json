@@ -28,24 +28,26 @@
     "lint": "eslint .",
     "test": "npm run --silent lint",
     "eslint-check": "eslint --print-config index.js | eslint-config-prettier-check",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
   },
   "dependencies": {
-    "babel-eslint": "^8.1.2",
+    "babel-eslint": "^8.2.1",
     "eslint": "^4.15.0",
     "eslint-plugin-ava": "^4.4.0",
     "eslint-plugin-flowtype": "^2.41.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-security": "^1.4.0",
-    "marked": "^0.3.9"
+    "marked": "^0.3.12"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
     "cz-conventional-changelog": "^2.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.4.0",
-    "prettier": "^1.9.2",
-    "semantic-release": "^11.0.2"
+    "prettier": "^1.10.2",
+    "semantic-release": "^12.2.2",
+    "travis-deploy-once": "^4.3.1"
   },
   "config": {
     "commitizen": {
