@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['ava', 'import', 'security', 'flowtype'],
+  plugins: ['ava', 'import', 'security'],
   extends: [
     './rules/best-practices.js',
     './rules/errors.js',
@@ -11,7 +11,7 @@ module.exports = {
     './rules/importplugin.js',
     './rules/node-security.js',
     'plugin:ava/recommended',
-    'plugin:flowtype/recommended',
+    './rules/ava.js',
   ],
   parser: 'babel-eslint',
   parserOptions: {
