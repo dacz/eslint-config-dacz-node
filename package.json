@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "3.1.0",
   "name": "eslint-config-dacz-node",
   "description": "Shareable eslint config for node by dacz",
   "author": "David Cizek <david@dchere.com> (https://twitter.com/dadc)",
