@@ -23,8 +23,7 @@
     "flow"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "test": "npm run --silent lint"
+    "test": "echo 'nothing'"
   },
   "dependencies": {}
 }
